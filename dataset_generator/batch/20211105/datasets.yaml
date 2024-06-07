@@ -1,0 +1,80 @@
+common:
+  class:
+  - name: sugarcane
+    path: '/srv/data-dir/query/shape/lstm/classes/merged_sugarcane.shp'
+  - name: rice
+    path: '/srv/data-dir/query/shape/lstm/classes/merged_rice.shp'
+  time:
+  - '2018-04-01'
+  - '2019-12-31'
+datasets:
+- name: KPP1
+  latitude:
+  - 16.4784
+  - 16.8381
+  longitude:
+  - 99.6221
+  - 99.704
+- name: KPP2
+  latitude:
+  - 16.5602
+  - 16.4392
+  longitude:
+  - 99.6945
+  - 99.797
+- name: central_1
+  latitude:
+  - 14.9203
+  - 14.8579
+  longitude:
+  - 99.7982
+  - 99.8665
+- name: central_2
+  latitude:
+  - 15.0188
+  - 14.9488
+  longitude:
+  - 99.866
+  - 99.9664
+- name: central_3
+  latitude:
+  - 15.6722
+  - 15.5894
+  longitude:
+  - 99.5536
+  - 99.6422
+- name: north_eastern_1
+  latitude:
+  - 16.5107
+  - 16.474
+  longitude:
+  - 102.0902
+  - 102.1319
+- name: north_eastern_2
+  latitude:
+  - 16.3175
+  - 16.2907
+  longitude:
+  - 102.1741
+  - 102.204
+- name: north_eastern_3
+  latitude:
+  - 17.2533
+  - 17.2209
+  longitude:
+  - 103.1998
+  - 103.2395
+- name: eastern_1
+  latitude:
+  - 13.7897
+  - 13.7576
+  longitude:
+  - 101.7395
+  - 101.8085
+- name: eastern_2
+  latitude:
+  - 13.3973
+  - 13.364
+  longitude:
+  - 101.1369
+  - 101.1825

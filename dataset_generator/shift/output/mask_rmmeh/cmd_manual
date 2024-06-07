@@ -1,0 +1,5 @@
+shapeshift_npz.py --npz /home/apiwat/git/lstm/lstm_dataset/generator/kc_full_data/trainSet.npz -b '2019-11' -e '2020-4' --source-label 'KC-farm'
+
+shapeshift_npz.py --npz /home/apiwat/git/lstm/lstm_dataset/generator/dc_full_data/trainSet.npz -b '2019-12' -e '2020-2' --source-label 'DC-farm'
+
+shapeshift_npz.py --npz /home/apiwat/git/lstm/lstm_dataset/generator/bk_full_data/trainSet.npz -b '2019-12' -e '2020-5' --source-label 'BK-farm'

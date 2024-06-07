@@ -1,0 +1,15 @@
+python __main__.py --latitude-extent 16.3128327000000013 16.4346943000000003 --longitude-extent 99.6175520999999975 99.7704346999999956 --time-extent 2017-04-01 2019-12-30 --n-sample 15000 --preview -o dataset1/train_set
+
+python __main__.py --latitude-extent 16.5634 16.4344 --longitude-extent 99.6901 99.8776 --time-extent 2017-04-01 2019-12-30 --n-sample 15000 --preview -o dataset1/test_set
+---------------------------------------------------------------
+python __main__.py --latitude-extent 16.3746943000000003 16.3128327000000013 --longitude-extent 99.6175520999999975 99.7004346999999956 --time-extent 2017-04-01 2019-12-30 --n-sample 15000 --preview -o dataset1/train_set
+
+python __main__.py --latitude-extent 16.4834 16.4344 --longitude-extent 99.6901 99.7776 --time-extent 2017-04-01 2019-12-30 --n-sample 15000 --preview -o dataset1/test_set
+
+
+
+python __main__.py --latitude-extent 16.5634 16.5132 --longitude-extent 99.6901 99.7457 --time-extent 2017-04-01 2019-12-30 --train-set-only --preview -o dataset1/test_raster_3
+
+python __main__.py --latitude-extent 16.5341 16.5017 --longitude-extent 99.7569 99.7981 --time-extent 2017-04-01 2019-12-30 --train-set-only --preview -o dataset1/test_raster_4
+
+python __main__.py --latitude-extent 16.53331 16.51118 --longitude-extent 99.77673 99.79688 --time-extent 2017-04-01 2019-12-30 --train-set-only --preview -o dataset1/test_raster_5
